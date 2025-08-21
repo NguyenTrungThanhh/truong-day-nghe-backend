@@ -5,6 +5,7 @@
     "scripts": {
         "start": "node src/index.js",
         "dev": "nodemon --inspect src/index.js",
+        "gen:secrets": "node src/api/v1/utils/genSecrets.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
@@ -15,6 +16,7 @@
         "cors": "^2.8.5",
         "dotenv": "^17.2.1",
         "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
         "mongoose": "^8.17.0",
         "multer": "^2.0.2",
         "multer-storage-cloudinary": "^4.0.0",
